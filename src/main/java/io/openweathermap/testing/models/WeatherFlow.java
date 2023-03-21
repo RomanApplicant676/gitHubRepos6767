@@ -23,10 +23,5 @@ public class WeatherFlow {
     public String name;
     public int cod;
 
-    @Override
-    public String toString() {
-        return (this.name + ": " + main.getTemp() + " Cealsius: " + Math.round(main.getTemp() - (273.15)));
-    }
-
 }
 
